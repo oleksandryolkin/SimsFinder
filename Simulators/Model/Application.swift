@@ -13,8 +13,8 @@ class Application {
     public private(set) var name: String
     public private(set) var url: URL
     
-    init(url: URL) {
-        self.name = url.lastPathComponent
+    init(name: String, url: URL) {
+        self.name = name
         self.url = url
     }
 

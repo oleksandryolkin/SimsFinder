@@ -9,22 +9,24 @@
 import Foundation
 import AppKit
 
-class AppController {
+class AppController: NSObject, NSMenuDelegate {
     
-    private var statusMenu: NSMenu
-    private var statusItem: NSStatusItem
+    private var statusMenu: NSMenu?
+    private var statusItem: NSStatusItem?
     
     private var simulatorsManager = SimulatorsManager()
     
-    init() {
+    override init() {
+        super.init()
+        
         self.statusMenu = NSMenu(title: "Simulators")
+        self.statusMenu?.delegate = self
         self.statusItem = NSStatusBar.system.statusItem(withLength: -1)
         let icon = NSImage(named: "statusIcon")
         icon?.isTemplate = true
-        self.statusItem.image = icon
-        self.statusItem.menu = statusMenu
+        self.statusItem?.image = icon
+        self.statusItem?.menu = statusMenu
         
-        buildMenu()
     }
     
     private func buildMenu() {
@@ -47,7 +49,7 @@ class AppController {
                     
                 }
                 
-                statusMenu.addItem(menuItem)
+                statusMenu?.addItem(menuItem)
  
             }
             
@@ -55,10 +57,20 @@ class AppController {
         
     }
     
+    private func clearMenu() {
+        statusMenu?.removeAllItems()
+    }
+    
     @objc func menuItemPressed(_ menuItem: NSMenuItem) {
         if let app = menuItem.representedObject as? Application {
             NSWorkspace.shared.activateFileViewerSelecting([app.url])
         }
+    }
+    
+    // MARK: - NSMenuDelegate
+    func menuWillOpen(_ menu: NSMenu) {
+        clearMenu()
+        buildMenu()
     }
     
 }

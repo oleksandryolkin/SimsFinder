@@ -11,5 +11,7 @@ import Foundation
 struct Constants {
     static let devicesPath = "/Library/Developer/CoreSimulator/Devices"
     static let devicePlistFileName = "device.plist"
-    static let applicationsPath = "/Data/Containers/Bundle/Application"
+    static let applicationsPath = "/Data/Containers/Data/Application"
+    static let metadataPlist = ".com.apple.mobile_container_manager.metadata.plist"
+    static let metadataIdentifier = "MCMMetadataIdentifier"
 }

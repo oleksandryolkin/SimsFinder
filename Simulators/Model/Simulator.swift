@@ -50,9 +50,16 @@ class Simulator {
             if let contentItems = try? FileManager.default.contentsOfDirectory(at: applicationUrl, includingPropertiesForKeys: [URLResourceKey.isPackageKey], options: []) {
                 
                 for item in contentItems {
-                    if item.lastPathComponent.hasSuffix("app") {
-                        let app = Application(url: item)
-                        apps.append(app)
+                    if item.lastPathComponent == Constants.metadataPlist {
+                        if let dict = NSDictionary(contentsOf: item) {
+                            if let appId = dict[Constants.metadataIdentifier] as? String, appId.hasPrefix("com.apple") == false {
+                                let app = Application(name: appId, url: item)
+                                apps.append(app)
+                                
+                            }
+                            
+                        }
+                    
                     }
                     
                 }

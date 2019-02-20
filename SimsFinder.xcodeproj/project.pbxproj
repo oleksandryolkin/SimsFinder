@@ -64,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				5CFB9104221D40FD001C4E57 /* Model */,
+				5CFB9101221D40FD001C4E57 /* Extensions */,
 				5CFB9109221D40FD001C4E57 /* AppConstants.swift */,
 				5CFB9108221D40FD001C4E57 /* AppController.swift */,
 				5CFB910A221D40FD001C4E57 /* AppDelegate.swift */,
@@ -86,9 +87,8 @@
 		5CFB9104221D40FD001C4E57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5CFB9101221D40FD001C4E57 /* Extensions */,
-				5CFB9105221D40FD001C4E57 /* Simulator.swift */,
 				5CFB9106221D40FD001C4E57 /* SimulatorsManager.swift */,
+				5CFB9105221D40FD001C4E57 /* Simulator.swift */,
 				5CFB9107221D40FD001C4E57 /* Application.swift */,
 			);
 			path = Model;

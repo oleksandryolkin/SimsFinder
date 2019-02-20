@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Simulators.xcodeproj">
+      location = "self:/Users/oleksandryolkin/Documents/Projects/2019/Simulators/SimsFinder.xcodeproj">
    </FileRef>
 </Workspace>

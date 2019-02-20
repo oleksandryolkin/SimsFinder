@@ -7,30 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C6B56B5221C02CE0073A6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B56B4221C02CE0073A6B0 /* AppDelegate.swift */; };
-		5C6B56B7221C02D00073A6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6B56B6221C02D00073A6B0 /* Assets.xcassets */; };
-		5C6B56BA221C02D00073A6B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6B56B8221C02D00073A6B0 /* MainMenu.xib */; };
-		5C6B56C4221C054D0073A6B0 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B56C3221C054D0073A6B0 /* AppController.swift */; };
-		5CFB90EC221C0A56001C4E57 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB90EB221C0A56001C4E57 /* AppConstants.swift */; };
-		5CFB90EE221C0D0F001C4E57 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB90ED221C0D0F001C4E57 /* FileManager+Extension.swift */; };
-		5CFB90F0221C0DCA001C4E57 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB90EF221C0DCA001C4E57 /* Simulator.swift */; };
-		5CFB90F2221C1055001C4E57 /* SimulatorsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB90F1221C1055001C4E57 /* SimulatorsManager.swift */; };
-		5CFB90F6221C1A3A001C4E57 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB90F5221C1A3A001C4E57 /* Application.swift */; };
+		5CFB910C221D40FD001C4E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB90FE221D40FD001C4E57 /* Assets.xcassets */; };
+		5CFB910D221D40FD001C4E57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB90FF221D40FD001C4E57 /* MainMenu.xib */; };
+		5CFB910E221D40FD001C4E57 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9102221D40FD001C4E57 /* FileManager+Extension.swift */; };
+		5CFB910F221D40FD001C4E57 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9105221D40FD001C4E57 /* Simulator.swift */; };
+		5CFB9110221D40FD001C4E57 /* SimulatorsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9106221D40FD001C4E57 /* SimulatorsManager.swift */; };
+		5CFB9111221D40FD001C4E57 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9107221D40FD001C4E57 /* Application.swift */; };
+		5CFB9112221D40FD001C4E57 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9108221D40FD001C4E57 /* AppController.swift */; };
+		5CFB9113221D40FD001C4E57 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9109221D40FD001C4E57 /* AppConstants.swift */; };
+		5CFB9114221D40FD001C4E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB910A221D40FD001C4E57 /* AppDelegate.swift */; };
+		5CFB9115221D40FD001C4E57 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB910B221D40FD001C4E57 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C6B56B1221C02CE0073A6B0 /* Simulators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simulators.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C6B56B4221C02CE0073A6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C6B56B6221C02D00073A6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C6B56B9221C02D00073A6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5C6B56BB221C02D00073A6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C6B56BC221C02D00073A6B0 /* Simulators.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simulators.entitlements; sourceTree = "<group>"; };
-		5C6B56C3221C054D0073A6B0 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
-		5CFB90EB221C0A56001C4E57 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		5CFB90ED221C0D0F001C4E57 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
-		5CFB90EF221C0DCA001C4E57 /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
-		5CFB90F1221C1055001C4E57 /* SimulatorsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorsManager.swift; sourceTree = "<group>"; };
-		5CFB90F5221C1A3A001C4E57 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		5C6B56B1221C02CE0073A6B0 /* SimsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFB90FE221D40FD001C4E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CFB9100221D40FD001C4E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CFB9102221D40FD001C4E57 /* FileManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		5CFB9103221D40FD001C4E57 /* Simulators.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Simulators.entitlements; sourceTree = "<group>"; };
+		5CFB9105221D40FD001C4E57 /* Simulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
+		5CFB9106221D40FD001C4E57 /* SimulatorsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorsManager.swift; sourceTree = "<group>"; };
+		5CFB9107221D40FD001C4E57 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		5CFB9108221D40FD001C4E57 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		5CFB9109221D40FD001C4E57 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		5CFB910A221D40FD001C4E57 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CFB910B221D40FD001C4E57 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +48,7 @@
 		5C6B56A8221C02CE0073A6B0 = {
 			isa = PBXGroup;
 			children = (
-				5C6B56B3221C02CE0073A6B0 /* Simulators */,
+				5CFB90FD221D40FD001C4E57 /* SimsFinder */,
 				5C6B56B2221C02CE0073A6B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,41 +56,41 @@
 		5C6B56B2221C02CE0073A6B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C6B56B1221C02CE0073A6B0 /* Simulators.app */,
+				5C6B56B1221C02CE0073A6B0 /* SimsFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C6B56B3221C02CE0073A6B0 /* Simulators */ = {
+		5CFB90FD221D40FD001C4E57 /* SimsFinder */ = {
 			isa = PBXGroup;
 			children = (
-				5CFB90F4221C15CD001C4E57 /* Model */,
-				5CFB90F3221C15B9001C4E57 /* Extensions */,
-				5C6B56B4221C02CE0073A6B0 /* AppDelegate.swift */,
-				5C6B56C3221C054D0073A6B0 /* AppController.swift */,
-				5CFB90EB221C0A56001C4E57 /* AppConstants.swift */,
-				5C6B56B6221C02D00073A6B0 /* Assets.xcassets */,
-				5C6B56B8221C02D00073A6B0 /* MainMenu.xib */,
-				5C6B56BB221C02D00073A6B0 /* Info.plist */,
-				5C6B56BC221C02D00073A6B0 /* Simulators.entitlements */,
+				5CFB9104221D40FD001C4E57 /* Model */,
+				5CFB9109221D40FD001C4E57 /* AppConstants.swift */,
+				5CFB9108221D40FD001C4E57 /* AppController.swift */,
+				5CFB910A221D40FD001C4E57 /* AppDelegate.swift */,
+				5CFB90FE221D40FD001C4E57 /* Assets.xcassets */,
+				5CFB910B221D40FD001C4E57 /* Info.plist */,
+				5CFB90FF221D40FD001C4E57 /* MainMenu.xib */,
+				5CFB9103221D40FD001C4E57 /* Simulators.entitlements */,
 			);
-			path = Simulators;
+			path = SimsFinder;
 			sourceTree = "<group>";
 		};
-		5CFB90F3221C15B9001C4E57 /* Extensions */ = {
+		5CFB9101221D40FD001C4E57 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5CFB90ED221C0D0F001C4E57 /* FileManager+Extension.swift */,
+				5CFB9102221D40FD001C4E57 /* FileManager+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		5CFB90F4221C15CD001C4E57 /* Model */ = {
+		5CFB9104221D40FD001C4E57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5CFB90F1221C1055001C4E57 /* SimulatorsManager.swift */,
-				5CFB90EF221C0DCA001C4E57 /* Simulator.swift */,
-				5CFB90F5221C1A3A001C4E57 /* Application.swift */,
+				5CFB9101221D40FD001C4E57 /* Extensions */,
+				5CFB9105221D40FD001C4E57 /* Simulator.swift */,
+				5CFB9106221D40FD001C4E57 /* SimulatorsManager.swift */,
+				5CFB9107221D40FD001C4E57 /* Application.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C6B56B0221C02CE0073A6B0 /* Simulators */ = {
+		5C6B56B0221C02CE0073A6B0 /* SimsFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C6B56BF221C02D00073A6B0 /* Build configuration list for PBXNativeTarget "Simulators" */;
+			buildConfigurationList = 5C6B56BF221C02D00073A6B0 /* Build configuration list for PBXNativeTarget "SimsFinder" */;
 			buildPhases = (
 				5C6B56AD221C02CE0073A6B0 /* Sources */,
 				5C6B56AE221C02CE0073A6B0 /* Frameworks */,
@@ -109,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = Simulators;
+			name = SimsFinder;
 			productName = Simulators;
-			productReference = 5C6B56B1221C02CE0073A6B0 /* Simulators.app */;
+			productReference = 5C6B56B1221C02CE0073A6B0 /* SimsFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C6B56AC221C02CE0073A6B0 /* Build configuration list for PBXProject "Simulators" */;
+			buildConfigurationList = 5C6B56AC221C02CE0073A6B0 /* Build configuration list for PBXProject "SimsFinder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C6B56B0221C02CE0073A6B0 /* Simulators */,
+				5C6B56B0221C02CE0073A6B0 /* SimsFinder */,
 			);
 		};
 /* End PBXProject section */
@@ -157,8 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6B56B7221C02D00073A6B0 /* Assets.xcassets in Resources */,
-				5C6B56BA221C02D00073A6B0 /* MainMenu.xib in Resources */,
+				5CFB910C221D40FD001C4E57 /* Assets.xcassets in Resources */,
+				5CFB910D221D40FD001C4E57 /* MainMenu.xib in Resources */,
+				5CFB9115221D40FD001C4E57 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,23 +171,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CFB90F2221C1055001C4E57 /* SimulatorsManager.swift in Sources */,
-				5CFB90F6221C1A3A001C4E57 /* Application.swift in Sources */,
-				5C6B56B5221C02CE0073A6B0 /* AppDelegate.swift in Sources */,
-				5CFB90F0221C0DCA001C4E57 /* Simulator.swift in Sources */,
-				5CFB90EE221C0D0F001C4E57 /* FileManager+Extension.swift in Sources */,
-				5CFB90EC221C0A56001C4E57 /* AppConstants.swift in Sources */,
-				5C6B56C4221C054D0073A6B0 /* AppController.swift in Sources */,
+				5CFB9111221D40FD001C4E57 /* Application.swift in Sources */,
+				5CFB9113221D40FD001C4E57 /* AppConstants.swift in Sources */,
+				5CFB9112221D40FD001C4E57 /* AppController.swift in Sources */,
+				5CFB9110221D40FD001C4E57 /* SimulatorsManager.swift in Sources */,
+				5CFB9114221D40FD001C4E57 /* AppDelegate.swift in Sources */,
+				5CFB910F221D40FD001C4E57 /* Simulator.swift in Sources */,
+				5CFB910E221D40FD001C4E57 /* FileManager+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5C6B56B8221C02D00073A6B0 /* MainMenu.xib */ = {
+		5CFB90FF221D40FD001C4E57 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5C6B56B9221C02D00073A6B0 /* Base */,
+				5CFB9100221D40FD001C4E57 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -315,12 +317,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MNQ98H9YXE;
-				INFOPLIST_FILE = Simulators/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimsFinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.oleksandryolkin.Simulators;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oleksandryolkin.SimsFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -333,12 +335,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MNQ98H9YXE;
-				INFOPLIST_FILE = Simulators/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SimsFinder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.oleksandryolkin.Simulators;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oleksandryolkin.SimsFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -347,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C6B56AC221C02CE0073A6B0 /* Build configuration list for PBXProject "Simulators" */ = {
+		5C6B56AC221C02CE0073A6B0 /* Build configuration list for PBXProject "SimsFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C6B56BD221C02D00073A6B0 /* Debug */,
@@ -356,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C6B56BF221C02D00073A6B0 /* Build configuration list for PBXNativeTarget "Simulators" */ = {
+		5C6B56BF221C02D00073A6B0 /* Build configuration list for PBXNativeTarget "SimsFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C6B56C0221C02D00073A6B0 /* Debug */,

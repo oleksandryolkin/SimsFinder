@@ -16,7 +16,6 @@
 		5CFB9112221D40FD001C4E57 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9108221D40FD001C4E57 /* AppController.swift */; };
 		5CFB9113221D40FD001C4E57 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB9109221D40FD001C4E57 /* AppConstants.swift */; };
 		5CFB9114221D40FD001C4E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB910A221D40FD001C4E57 /* AppDelegate.swift */; };
-		5CFB9115221D40FD001C4E57 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB910B221D40FD001C4E57 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				5CFB9104221D40FD001C4E57 /* Model */,
+				5CFB9101221D40FD001C4E57 /* Extensions */,
 				5CFB9109221D40FD001C4E57 /* AppConstants.swift */,
 				5CFB9108221D40FD001C4E57 /* AppController.swift */,
 				5CFB910A221D40FD001C4E57 /* AppDelegate.swift */,
@@ -87,9 +87,8 @@
 		5CFB9104221D40FD001C4E57 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5CFB9101221D40FD001C4E57 /* Extensions */,
-				5CFB9105221D40FD001C4E57 /* Simulator.swift */,
 				5CFB9106221D40FD001C4E57 /* SimulatorsManager.swift */,
+				5CFB9105221D40FD001C4E57 /* Simulator.swift */,
 				5CFB9107221D40FD001C4E57 /* Application.swift */,
 			);
 			path = Model;
@@ -160,7 +159,6 @@
 			files = (
 				5CFB910C221D40FD001C4E57 /* Assets.xcassets in Resources */,
 				5CFB910D221D40FD001C4E57 /* MainMenu.xib in Resources */,
-				5CFB9115221D40FD001C4E57 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
